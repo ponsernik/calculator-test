@@ -18,7 +18,7 @@ public class Calculator {
     public void go() {
         JFrame frame = new JFrame("Мой первый калькулятор");
         frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
-        frame.setSize(500, 300);
+        frame.setSize(600, 300); // изменен размер фрейма
 
         JPanel numberPanel = new JPanel();
         numberPanel.setLayout(new GridLayout(4, 4, 10, 10));
